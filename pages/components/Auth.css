@@ -1,0 +1,33 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  padding: 50px;
+  width: 300px;
+}
+
+.register-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-single-input {
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+.register-label::before {
+  content: '*';
+  color: red;
+}
+
+.register-single-input::placeholder {
+  color: white;
+}
+
+.register-single-input:disabled {
+  background-color: red;
+}
+.register-buttons {
+  margin: 10px;
+}
